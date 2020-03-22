@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #666;
+  background-color: #f5f7f9;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.app-github-header,
+.app-github-form,
+.app-github-list,
+.app-github-notes {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin: 20px;
+  display: flex;
+}
+
+.app-github-header h2 {
+  text-align: center;
+  width: 50%;
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  color: #0798f8;
+}
+
+.github-profile-info {
+  font-size: 0.8em;
+  font-weight: 300;
+  padding: 10px;
+  color: #666;
+}
+
+.github-profile-info > div.name {
+  font-weight: bold;
+  font-weight: 400;
+}
+
+.github-profile {
+  display: flex;
+  margin: 10px;
+}
+
+.github-footer {
+  display: flex;
+  flex-direction: column-reverse;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #0798f8;
   color: white;
+  padding: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.app-github-notes-desc {
+  font-size: 0.9em;
+  font-size: 300;
+  color: #666;
+  border: 1px solid #cccccc;
+  padding: 3px 10px 3px 10px;
+  border-radius: 0px 3px 3px 0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app-github-notes-title {
+  background-color: #0798f8;
+  font-size: 0.8em;
+  font-size: 100;
+  color: white;
+  padding: 3px 10px 3px 10px;
+  border-radius: 3px 0px 0px 3px;
 }
