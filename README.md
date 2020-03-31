@@ -5,6 +5,12 @@ The objective is develop a Github Cards App that will search a githu username ba
 
 Using the github API, we are able to retrieve the list of github username.
 
+These are the following components:
+
+- Github Card App
+- User Lists
+- User Name
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
